@@ -1,3 +1,8 @@
+# To mess aroud with map:
+1. Open Github repo from link
+2. Press . on the repo page to open web vscode
+3. Go to main.ipynb and scroll to the bottom
+4. Have fun
 # Questions
 - Where in Chicago has the most crime?
 - What demograpic data best predicts the number of crimes 
