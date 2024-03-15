@@ -11,9 +11,7 @@ fig = px.scatter_mapbox(df_arrests, lat='LATITUDE', lon='LONGITUDE', hover_name=
 fig.update_layout(title='Chicago Crimes', title_x=0.5)
 fig.update_layout(mapbox_style="open-street-map")
 fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
-
 fig.show()
-
 shots = pd.read_csv('Violence_Reduction_-_Shotspotter_Alerts_20240307.csv')
 fig = px.scatter_mapbox(shots, lat='LATITUDE', lon='LONGITUDE', hover_name='INCIDENT_TYPE_DESCRIPTION', hover_data=
 ['BEAT', "DATE", "ROUNDS", "COMMUNITY_AREA"], zoom=10)
