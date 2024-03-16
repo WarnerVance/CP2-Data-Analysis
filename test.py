@@ -22,5 +22,6 @@ fig.show()
 print(f"Size: {df.shape[0]}")
 print(f"Time: {time.process_time() - start}")
 print("test.py executed successfully!")
+
 exit(0)
 
