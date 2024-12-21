@@ -1,3 +1,4 @@
+# Project for Highschool computer programming class. 
 # To mess aroud with map:
 1. Open Github repo from link
 2. Press . on the repo page to open web vscode
